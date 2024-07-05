@@ -1,10 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Link from 'next/link'
 const Hero = () => {
     return (
         <>
             <div className='flex flex-col justify-center items-center gap-10'>
-                <div className='flex flex-col justify-center items-center'>
+                <div className='flex flex-col justify-center items-center '>
                     <h1 className='text-white text-[70px] font-bold'>Find Your Dream Job Today!</h1>
                     <p className='text-white'>Connecting Talent with Opportunity: Your Gateway to Career Success</p>
                 </div>
@@ -31,6 +32,37 @@ const Hero = () => {
                     </button>
                 </div>
             </div>
+            <div className='flex flex-row justify-center items-center gap-20 text-white '>
+                <div className='flex flex-row gap-1'>
+                    <Image className='w-[60px] h-[60px] ' src='/briefcase.png' alt="" width={200} height={200} />
+                    <div className='flex flex-col justify-center'>
+                        <h3 className='text-[20px]'>25000</h3>
+                        <p>Jobs</p>
+                    </div>
+                </div>
+                <div className='flex flex-row gap-1'>
+                    <Image className='w-[60px] h-[60px] ' src='/people.png' alt="" width={200} height={200} />
+                    <div className='flex flex-col justify-center'>
+                        <h3 className='text-[20px]'>10000</h3>
+                        <p>Candidates</p>
+                    </div>
+                </div>
+                <div className='flex flex-row gap-1'>
+                    <Image className='w-[60px] h-[60px] ' src='/company.png' alt="" width={200} height={200} />
+                    <div className='flex flex-col justify-center'>
+                        <h3 className='text-[20px]'>18000</h3>
+                        <p>Companies</p>
+                    </div>
+                </div>
+            </div>
+            <div className='flex flex-row justify-between gap-10 p-8 bg-black'>
+                <Image className='w-[140px] h-[40px] ' src='/Vector (8).png' alt="" width={200} height={200} />
+                <Image className='w-[140px] h-[40px] ' src='/logos.png' alt="" width={200} height={200} />
+                <Image className='w-[140px] h-[40px] ' src='/logo (1).png' alt="" width={200} height={200} />
+                <Image className='w-[140px] h-[40px] ' src='/logo (2).png' alt="" width={200} height={200} />
+                <Image className='w-[140px] h-[40px] ' src='/logo (3).png' alt="" width={200} height={200} />
+            </div>
+
         </>
     )
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./Header";
 import Hero from './Hero'
+import Recentjobs from "./recentjobs";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
         <Header />
         <Hero />
       </div>
+      <Recentjobs />
     </>
   );
 }
