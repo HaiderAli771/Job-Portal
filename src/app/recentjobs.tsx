@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Footer from './Footer'
 const recentjobs = () => {
     return (
         <>
@@ -197,7 +198,7 @@ const recentjobs = () => {
                 </div>
             </div>
             <div className='flex flex-row gap-14 pt-20 justify-center pl-6 pr-6'>
-                <Image className='w-[400px] h-[425px] ' src='/group.png' alt="" width={200} height={200} />
+                <Image src='/group.png' alt="" width={400} height={425} />
                 <div className='flex flex-col gap-8 justify-center'>
                     <h1 className='text-[50px] font-bold w-[551px]'>Good Life Begins With A Good Company</h1>
                     <p className='w-[600px]'>Ultricies purus dolor viverra mi laoreet at cursus justo. Ultrices purus diam egestas amet faucibus tempor blandit. Elit velit mauris aliquam est diam. Leo sagittis consectetur diam morbi erat aenean. Vulputate praesent congue faucibus in euismod feugiat euismod volutpat</p>
@@ -232,7 +233,7 @@ const recentjobs = () => {
                     <Link className='flex mb-11 flex-row justify-center items-center rounded-lg text-white w-[110px] h-[50px]  bg-[#309689]' href='/searchjobs'>Search Jobs</Link>
                 </div>
 
-                <Image className='w-[100%] ' src='/worker.png' alt="" width={200} height={200} />
+                <Image className=' ' src='/worker.png' alt="" width={600} height={420} />
             </div>
             <div className='bg-[#cffff8] flex flex-col justify-center '>
                 <div className='flex flex-col justify-center items-center gap-5 mb-14 mt-14'>
@@ -296,11 +297,35 @@ const recentjobs = () => {
                     </div>
                 </div>
             </div >
-            <div>
-                <h1>News And Blogs</h1>
-                <p>Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor</p>
-                <Image className='w-[636px] h-[400px]' src='/news.png' alt="" width={200} height={200} />
+
+
+            <div className='flex flex-row justify-center gap-10 pb-10'>
+                <div className='flex flex-col gap-6 '>
+                    <h1 className='text-[40px] text-black'>News And Blogs</h1>
+                    <p className='text-[15px] '>Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor</p>
+                    <Image className='' src='/news.png' alt="" width={636} height={400} />
+                    <div className='flex flex-col gap-3'>
+                        <p>30 March 2024</p>
+                        <h1 className='text-[20px] font-bold text-black w-[696px]'>Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024</h1>
+
+                        <Link className=' flex flex-row gap-2 items-center text-[#309689]' href='/viewall'>Read More
+                            <Image className='' src='/arrow-right.png' alt="" width={20} height={20} />
+                        </Link>
+                    </div>
+                </div>
+                <div className='flex flex-col gap-6 mt-32 '>
+                    <Image className='' src='/blog.png' alt="" width={636} height={400} />
+                    <div className='flex flex-col gap-3'>
+                        <p>30 March 2024</p>
+                        <h1 className='text-[20px] font-bold text-black w-[696px]'>How to avoid the top six most common job interview mistakes in bussiness in 2024</h1>
+
+                        <Link className=' flex flex-row gap-2 items-center text-[#309689]' href='/viewall'>Read More
+                            <Image className='' src='/arrow-right.png' alt="" width={20} height={20} />
+                        </Link>
+                    </div>
+                </div>
             </div>
+            <Footer />
         </>
     )
 }
