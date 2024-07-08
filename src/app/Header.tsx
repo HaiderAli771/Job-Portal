@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <>
 
-            <div className=' flex flex-row justify-around items-center'>
+            <div className=' flex flex-row justify-around items-center pl-[70px]'>
 
 
-                <div className='flex flex-row justify-around items-center '>
+                <div className='flex flex-row justify-center items-center '>
                     <Image className='w-[24.51px] h-[25.08px] ' src='/logo.png' alt="" width={200} height={200} />
                     <h1 className='text-white text-[20px]'>Job Portal</h1>
                 </div>

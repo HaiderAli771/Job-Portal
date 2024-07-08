@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Footer from './Footer'
+import News from './news'
 const recentjobs = () => {
     return (
         <>
@@ -297,34 +298,7 @@ const recentjobs = () => {
                     </div>
                 </div>
             </div >
-
-
-            <div className='flex flex-row justify-center gap-10 pb-10'>
-                <div className='flex flex-col gap-6 '>
-                    <h1 className='text-[40px] text-black'>News And Blogs</h1>
-                    <p className='text-[15px] '>Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor</p>
-                    <Image className='' src='/news.png' alt="" width={636} height={400} />
-                    <div className='flex flex-col gap-3'>
-                        <p>30 March 2024</p>
-                        <h1 className='text-[20px] font-bold text-black w-[696px]'>Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024</h1>
-
-                        <Link className=' flex flex-row gap-2 items-center text-[#309689]' href='/viewall'>Read More
-                            <Image className='' src='/arrow-right.png' alt="" width={20} height={20} />
-                        </Link>
-                    </div>
-                </div>
-                <div className='flex flex-col gap-6 mt-32 '>
-                    <Image className='' src='/blog.png' alt="" width={636} height={400} />
-                    <div className='flex flex-col gap-3'>
-                        <p>30 March 2024</p>
-                        <h1 className='text-[20px] font-bold text-black w-[696px]'>How to avoid the top six most common job interview mistakes in bussiness in 2024</h1>
-
-                        <Link className=' flex flex-row gap-2 items-center text-[#309689]' href='/viewall'>Read More
-                            <Image className='' src='/arrow-right.png' alt="" width={20} height={20} />
-                        </Link>
-                    </div>
-                </div>
-            </div>
+            <News />
             <Footer />
         </>
     )
