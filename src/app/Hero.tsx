@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import SectionHeader from '@/components/sectionHeader'
 const Hero = () => {
     return (
         <>
             <div className='flex flex-col justify-center items-center gap-10'>
                 <div className='flex flex-col justify-center items-center '>
-                    <h1 className='text-white text-[70px] font-bold'>Find Your Dream Job Today!</h1>
-                    <p className='text-white'>Connecting Talent with Opportunity: Your Gateway to Career Success</p>
+                    <SectionHeader descritionClassName='text-[19px] text-white text-center font-normal' className=' text-white text-[70px] font-bold' title='Find Your Dream Job Today!' description='Connecting Talent with Opportunity: Your Gateway to Career Success' />
                 </div>
                 <div className="flex items-center space-x-0 bg-white shadow-md rounded-lg m-0 pl-[25px]">
                     <input
@@ -36,8 +36,7 @@ const Hero = () => {
                 <div className='flex flex-row gap-1'>
                     <Image className='w-[60px] h-[60px] ' src='/briefcase.png' alt="" width={200} height={200} />
                     <div className='flex flex-col justify-center'>
-                        <h3 className='text-[20px]'>25000</h3>
-                        <p>Jobs</p>
+                        <SectionHeader descritionClassName='text-[14px] gap-0 ' className=' text-[20px] gap-0' title='25000' description='Jobs' />
                     </div>
                 </div>
                 <div className='flex flex-row gap-1'>

@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../Header";
+import News from "../news";
+import Footer from "../Footer";
+
 const page = () => {
     return (
         <>
@@ -154,6 +157,8 @@ const page = () => {
                 </div>
 
             </div>
+            <News />
+            <Footer />
         </>
     )
 }
