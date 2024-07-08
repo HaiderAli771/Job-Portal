@@ -1,41 +1,36 @@
 import React from 'react';
-
+import SectionHeader from '@/components/sectionHeader';
+import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className="bg-black text-white py-8">
             <div className="container mx-auto px-4 pt-[30px]">
                 <div className="flex flex-row ">
                     <div className="w-full sm:w-1/4 mb-6 sm:mb-0">
-                        <h6 className="text-lg font-bold">Job</h6>
-                        <p className="text-[15px] mt-4">
-                            Quis enim pellentesque viverra tellus eget malesuada facilisis. Congue nibh vivamus aliquet nunc mauris d...
-                        </p>
+                        <SectionHeader descritionClassName='text-[15px] mt-4 font-normal' className='text-[20px] font-extrabold ' title='Job' description='Quis enim pellentesque viverra tellus eget malesuada facilisis. Congue nibh vivamus aliquet nunc mauris d...' />
                     </div>
                     <div className="flex flex-col items-center w-full sm:w-1/4 mb-6 sm:mb-0">
                         <h6 className="text-lg font-bold pr-[16px] ">Company</h6>
-                        <ul className="mt-4">
-                            <li className="text-sm">About Us</li>
-                            <li className="text-sm">Our Team</li>
-                            <li className="text-sm">Partners</li>
-                            <li className="text-sm">For Candidates</li>
-                            <li className="text-sm">For Employers</li>
-                        </ul>
+                        <div className="mt-4 flex flex-col">
+                            <Link className="text-sm" href='' >About Us</Link>
+                            <Link className="text-sm" href=''>Our Team</Link>
+                            <Link className="text-sm" href=''>Partners</Link>
+                            <Link className="text-sm" href=''>For Candidates</Link>
+                            <Link className="text-sm" href=''>For Employers</Link>
+                        </div>
                     </div>
-                    <div className="w-full sm:w-1/4 mb-6 sm:mb-0">
+                    <div className="w-full flex flex-col sm:w-1/4 mb-6 sm:mb-0">
                         <h6 className="text-lg font-bold">Job Categories</h6>
-                        <ul className="mt-4">
-                            <li className="text-sm">Telecommunications</li>
-                            <li className="text-sm">Hotels & Tourism</li>
-                            <li className="text-sm">Construction</li>
-                            <li className="text-sm">Education</li>
-                            <li className="text-sm">Financial Services</li>
-                        </ul>
+                        <div className="mt-4 flex flex-col">
+                            <Link className="text-sm" href=''>Telecommunications</Link>
+                            <Link className="text-sm" href=''>Hotels & Tourism</Link>
+                            <Link className="text-sm" href=''>Construction</Link>
+                            <Link className="text-sm" href=''>Education</Link>
+                            <Link className="text-sm " href=''>Financial Services</Link>
+                        </div>
                     </div>
                     <div className="w-full sm:w-1/4 mb-6 sm:mb-0">
-                        <h6 className="text-lg font-bold">Newsletter</h6>
-                        <p className="text-sm mt-4">
-                            Eu nunc pretium vitae platea. Non netus elementum vulputate
-                        </p>
+                        <SectionHeader descritionClassName='text-sm mt-4 font-normal gap-0' className='text-lg font-bold gap-0' title='Newsletter' description='Eu nunc pretium vitae platea. Non netus elementum vulputate' />
                         <div className="flex flex-col gap-2 mt-4">
                             <input
                                 type="email"
@@ -51,8 +46,8 @@ const Footer = () => {
                 <div className="flex flex-row justify-between items-center mt-8 text-center text-sm">
                     <p>© Copyright Job Portal 2024. Design by Figma.guru</p>
                     <div className="flex justify-center gap-4 pr-2">
-                        <a href="#" className="hover:underline">Privacy Policy</a>
-                        <a href="#" className="hover:underline">Terms & Conditions</a>
+                        <Link href="#" className="hover:underline">Privacy Policy</Link>
+                        <Link href="#" className="hover:underline">Terms & Conditions</Link>
                     </div>
                 </div>
             </div>
