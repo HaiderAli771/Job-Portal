@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
                 <div className='flex flex-row gap-8'>
                     <Link className={`${pathname === '/' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/'>Home</Link>
-                    <Link className={`${pathname === '/jobs' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/jobs'>Jobs</Link>
+                    <Link className={`${pathname === '/jobs' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/Jobs'>Jobs</Link>
                     <Link className={`${pathname === '/aboutus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/aboutus'>About Us</Link>
                     <Link className={`${pathname === '/contactus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/contactus'>Contact Us</Link>
                 </div><div className='flex flex-row items-center gap-5 '>
