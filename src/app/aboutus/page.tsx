@@ -4,6 +4,7 @@ import Link from "next/link";
 import Header from "../Header";
 import News from "../news";
 import Footer from "../Footer";
+import SectionHeader from "@/components/sectionHeader";
 
 const page = () => {
     return (

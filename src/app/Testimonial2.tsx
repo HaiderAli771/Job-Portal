@@ -1,16 +1,13 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
+import SectionHeader from "@/components/sectionHeader"
 
 
 export default function Testimonial2() {
     return (
-        <div className="mt-16 h-auto bg-[#EBF5F4]">
-           <div className="text-center pt-8">
-            <h1 className="text-5xl  font-bold">Top Company</h1>
-            <p className="md:mt-7 truncate"> At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum id sce..</p>
-          
-            </div>  
+        <div className="mt-16 pt-5 h-[600px]  bg-[#EBF5F4]">
+            <SectionHeader className="text-center pt-8 text-6xl font-bold" descriptionClassName="md:mt-7 truncate text-sm font-normal" title='Top Company' description=" At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum id sce.." />
             <div className="flex justify-center md:ml-20 gap-8 mt-10">
 
             <div className=" leading-6 bg-white  rounded-2xl h-[300px] md:w-[250px]">

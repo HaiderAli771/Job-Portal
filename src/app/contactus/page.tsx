@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Map from './Map'
 import Footer from '../Footer'
+import SectionHeader from '@/components/sectionHeader'
 const page = () => {
     return (
         <>
@@ -13,37 +14,26 @@ const page = () => {
             </div>
             <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center py-12">
                 <div className=" p-8 flex">
-                    <div className="w-1/2 p-8">
-                        <h1 className="text-4xl font-bold mb-4 w-[500px]">You Will Grow, You Will Succeed. We Promise That</h1>
-                        <p className="text-gray-600 mb-8">
-                            Pellentesque acu facilisis nunc mi proin. Dignissim mattis in lectus tincidunt tincidunt ultricies. Diam convallis morbi pellentesque adipiscing.
-                        </p>
+                    <div className="w-1/2  p-8">
+                    <SectionHeader className='text-4xl font-bold pb-4 w-[500px]' title='You Will Grow, You Will Succeed. We Promise That' descriptionClassName='text-gray-600 mb-8 text-sm font-normal pt-4' description=' Pellentesque acu facilisis nunc mi proin. Dignissim mattis in lectus tincidunt tincidunt ultricies. Diam convallis morbi pellentesque adipiscing.' />
+                       
                         <div className='flex flex-row  justify-between'>
                             <div className=''>
-
                                 <div className="mb-10">
                                     <Image className='pb-2' src='/phone.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Call for inquiry</h2>
-                                    <p className="text-green-500">+257 388-6895</p>
+                                    <SectionHeader className='text-xl font-semibold mb-2' title='Call for inquiry' descriptionClassName='text-green-500 text-sm font-normal pt-2 text-sm' description='+257 388-6895' /> 
                                 </div>
                                 <div className="mb-10">
                                     <Image className='pb-2' src='/mail.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Send us email</h2>
-                                    <p className="text-green-500">kramulous@sbcglobal.net</p>
+                                    <SectionHeader className='text-xl font-semibold mb-2' title='Send us email' descriptionClassName='text-green-500 text-sm font-normal pt-2 text-sm' description='kramulous@sbcglobal.net' />
+                                 
                                 </div>
                             </div>
-                            <div>
-
-                                <div className="mb-10">
-                                    <Image className='pb-2' src='/clock.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Opening hours</h2>
-                                    <p>Mon - Fri: 10AM - 10PM</p>
-                                </div>
-                                <div>
+                            <div>  
+                                    <Image className='pb-2 ' src='/clock.png' alt="" width={28} height={28} />
+                                    <SectionHeader className='text-xl  font-semibold mb-2' title='Opening hours' descriptionClassName='text-green-500 text-sm font-normal pt-2 mb-10 text-sm' description='Mon - Fri: 10AM - 10PM' />
                                     <Image className='pb-2' src='/map.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Office</h2>
-                                    <p>19 North Road Piscataway, NY 08854</p>
-                                </div>
+                                    <SectionHeader className='text-xl font-semibold mb-2' title='Office ' descriptionClassName=' font-normal pt-2 text-sm' description='19 North Road Piscataway, NY 08854' />                                                              
                             </div>
                         </div>
                     </div>
@@ -56,7 +46,7 @@ const page = () => {
                                     <input
                                         type="text"
                                         placeholder="First Name"
-                                        className=" p-3 border w-80 border-gray-300 rounded-lg"
+                                        className=" p-3 border w-60 border-gray-300 rounded-lg"
                                     />
                                 </div>
                                 <div>
@@ -64,7 +54,7 @@ const page = () => {
                                     <input
                                         type="text"
                                         placeholder="Last Name"
-                                        className=" p-3 border w-80 border-gray-300 rounded-lg"
+                                        className=" p-3 border w-60 border-gray-300 rounded-lg"
                                     />
                                 </div>
                             </div>
@@ -104,5 +94,4 @@ const page = () => {
         </>
     )
 }
-
 export default page
