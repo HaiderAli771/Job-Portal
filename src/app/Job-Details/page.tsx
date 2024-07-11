@@ -105,7 +105,7 @@ export default function Page() {
                          <Icon
                         iconSrc="/Linkedin.svg"/>  
                       </div>
-                       <SectionHeader className='text-5xl gap-6 font-bold mb-5 mt-[60px]' title='Related Jobs' descriptionClassName='text-sm font-normal' description='At eu lobortis pretium tincidunt amet lacus ut aenean aliquet...' />     
+                       <SectionHeader className='text-5xl gap-6 font-bold mb-5 mt-[60px]' title='Related Jobs' descritionClassName='text-sm font-normal' description='At eu lobortis pretium tincidunt amet lacus ut aenean aliquet...' />     
                 <div className="mt-[50px] pt-6 ">
                 <JobCard
                  timeAgo= "24 min ago"

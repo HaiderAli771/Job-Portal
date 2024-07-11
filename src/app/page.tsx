@@ -2,6 +2,12 @@ import Header from "./Header";
 import Hero from './Hero'
 import { useRouter } from 'next/router';
 import Recentjobs from "./recentjobs";
+import Category1 from "./category"
+import Information from "./Information";
+import BetterFuture from "./betterfuture";
+import Testimonial from "./testimonial";
+import News from "./news";
+import Footer from "./Footer";
 export default function Home() {
   return (
     <>
@@ -15,6 +21,12 @@ export default function Home() {
         <Hero />
       </div>
       <Recentjobs />
+      <Category1 />
+      <Information />
+      <BetterFuture />
+      <Testimonial />
+      <News />
+      <Footer />
 
     </>
   );

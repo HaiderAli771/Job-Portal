@@ -3,8 +3,6 @@ import Image from "next/image";
 interface props {
 href: string ,
 children:string,
-
-
 }
 const Tags = ({href,children ,}: props) => {
     return (

@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../Header'
-import Link from 'next/link'
 import Image from 'next/image'
 import Map from './Map'
 import Footer from '../Footer'
+import Timing from "@/components/Timing"
 import SectionHeader from '@/components/sectionHeader'
 const page = () => {
     return (
@@ -15,25 +15,18 @@ const page = () => {
             <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center py-12">
                 <div className=" p-8 flex">
                     <div className="w-1/2  p-8">
-                    <SectionHeader className='text-4xl font-bold pb-4 w-[500px]' title='You Will Grow, You Will Succeed. We Promise That' descriptionClassName='text-gray-600 mb-8 text-sm font-normal pt-4' description=' Pellentesque acu facilisis nunc mi proin. Dignissim mattis in lectus tincidunt tincidunt ultricies. Diam convallis morbi pellentesque adipiscing.' />
+                    <SectionHeader className='text-4xl font-bold pb-4 w-[500px]' title='You Will Grow, You Will Succeed. We Promise That' descritionClassName='text-gray-600 mb-8 text-sm font-normal pt-4' description=' Pellentesque acu facilisis nunc mi proin. Dignissim mattis in lectus tincidunt tincidunt ultricies. Diam convallis morbi pellentesque adipiscing.' />
                        
                         <div className='flex flex-row  justify-between'>
-                            <div className=''>
-                                <div className="mb-10">
-                                    <Image className='pb-2' src='/phone.png' alt="" width={28} height={28} />
-                                    <SectionHeader className='text-xl font-semibold mb-2' title='Call for inquiry' descriptionClassName='text-green-500 text-sm font-normal pt-2 text-sm' description='+257 388-6895' /> 
-                                </div>
-                                <div className="mb-10">
-                                    <Image className='pb-2' src='/mail.png' alt="" width={28} height={28} />
-                                    <SectionHeader className='text-xl font-semibold mb-2' title='Send us email' descriptionClassName='text-green-500 text-sm font-normal pt-2 text-sm' description='kramulous@sbcglobal.net' />
-                                 
-                                </div>
+                            <div>
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Call for inquiry' description='+257 388-6895' ImgSrc='/phone.png' />
+
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Send us email' description='kramulous@sbcglobal.net' ImgSrc='/mail.png' />
                             </div>
-                            <div>  
-                                    <Image className='pb-2 ' src='/clock.png' alt="" width={28} height={28} />
-                                    <SectionHeader className='text-xl  font-semibold mb-2' title='Opening hours' descriptionClassName='text-green-500 text-sm font-normal pt-2 mb-10 text-sm' description='Mon - Fri: 10AM - 10PM' />
-                                    <Image className='pb-2' src='/map.png' alt="" width={28} height={28} />
-                                    <SectionHeader className='text-xl font-semibold mb-2' title='Office ' descriptionClassName=' font-normal pt-2 text-sm' description='19 North Road Piscataway, NY 08854' />                                                              
+
+                            <div>
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Opening hours' description='Mon - Fri: 10AM - 10PM' ImgSrc='/clock.png' />
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Office' description='19 North Road Piscataway, NY 08854' ImgSrc='/map.png' />
                             </div>
                         </div>
                     </div>

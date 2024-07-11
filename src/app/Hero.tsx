@@ -36,21 +36,19 @@ const Hero = () => {
                 <div className='flex flex-row gap-1'>
                     <Image className='w-[60px] h-[60px] ' src='/briefcase.png' alt="" width={200} height={200} />
                     <div className='flex flex-col justify-center'>
-                        <SectionHeader descritionClassName='text-[14px] gap-0 ' className=' text-[20px] gap-0' title='25000' description='Jobs' />
+                        <SectionHeader descritionClassName='text-[14px]  ' className=' text-[20px] ' title='25000' description='Jobs' />
                     </div>
                 </div>
                 <div className='flex flex-row gap-1'>
                     <Image className='w-[60px] h-[60px] ' src='/people.png' alt="" width={200} height={200} />
                     <div className='flex flex-col justify-center'>
-                        <h3 className='text-[20px]'>10000</h3>
-                        <p>Candidates</p>
+                        <SectionHeader descritionClassName='text-[14px] ' className=' text-[20px] ' title='10000' description='Candidates' />
                     </div>
                 </div>
                 <div className='flex flex-row gap-1'>
                     <Image className='w-[60px] h-[60px] ' src='/company.png' alt="" width={200} height={200} />
                     <div className='flex flex-col justify-center'>
-                        <h3 className='text-[20px]'>18000</h3>
-                        <p>Companies</p>
+                        <SectionHeader descritionClassName='text-[14px]  ' className=' text-[20px] ' title='18000' description='Companies' />
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <>
 
-            <div className=' flex flex-row justify-around items-center pl-[70px]'>
+            <div className=' flex flex-row justify-around items-center pt-[20px] pl-[70px]'>
 
 
                 <div className='flex flex-row justify-center items-center '>
@@ -16,8 +16,8 @@ const Header = () => {
                     <h1 className='text-white text-[20px]'>Job Portal</h1>
                 </div>
                 <div className='flex flex-row gap-8'>
-                    <Link className={`${pathname === '/' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/'>Home</Link>
-                    <Link className={`${pathname === '/Jobs' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/Jobs'>Jobs</Link>
+                    <Link className={`${pathname === '/' ? 'text-[#309689] ' : 'text-white'} text-[20px]'`} href='/'>Home</Link>
+                    <Link className={`${pathname === '/jobs' ? 'text-[#309689] ' : 'text-white'} text-[20px]'`} href='/Jobs'>Jobs</Link>
                     <Link className={`${pathname === '/aboutus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/aboutus'>About Us</Link>
                     <Link className={`${pathname === '/contactus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/contactus'>Contact Us</Link>
                 </div><div className='flex flex-row items-center gap-5 '>
@@ -28,5 +28,4 @@ const Header = () => {
         </>
     );
 };
-
 export default Header;

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image"
-import Link from "next/link";
 import Bar from "@/components/navbar";
 import Catageory from "@/components/Catageory/Catageory";
+import SalarySlider from './Job-Details/SalarySlider'
 export default function Navbar() {
   return (
     <nav className="bg-[#EBF5F4] md:w-[350px] rounded-2xl md:pb-12 md:ml-11 md:mt-4">
@@ -112,14 +112,7 @@ export default function Navbar() {
            heading="Last 30 days"
            /> 
       </div>
-      <p className=" text-xl  font-semibold md:ml-7">Salary</p>
-      <Image className="md:w-[250px] mt-3 ml-7" src="/Vector.svg" alt="lock" width={100} height={100} />
-
-      <div className="flex m-2 gap-[55px] mt-3  ml-7">
-        <p>Salary:$0-$9999</p>
-        <Link href={"/Apply"} className="text-white bg-[#309689] hover:bg-[#017767] rounded-md px-4 " >Apply</Link>
-      </div>
-
+      <SalarySlider />
       <p className="font-semibold md:ml-7 mt-3 text-2xl ">Tags</p>
       <div className="grid md:grid-cols-2 gap-x-3 gap-y-3  ml-6 mt-3 mr-10 " >
         <Catageory
