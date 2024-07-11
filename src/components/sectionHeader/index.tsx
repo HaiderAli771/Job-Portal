@@ -4,7 +4,6 @@ interface Props {
     className?: string;
     descriptionClassName?: string;
 }
-
 const SectionHeader = ({ title, description, className, descriptionClassName }: Props) => {
     return (
         <div className={`{flex flex-col}  ${className}`}>
@@ -13,5 +12,4 @@ const SectionHeader = ({ title, description, className, descriptionClassName }: 
         </div>
     )
 }
-
 export default SectionHeader;
