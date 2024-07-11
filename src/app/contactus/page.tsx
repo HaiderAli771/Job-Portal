@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../Header'
-import Link from 'next/link'
 import Image from 'next/image'
 import Map from './Map'
 import Footer from '../Footer'
+import Timing from "@/components/Timing"
 const page = () => {
     return (
         <>
@@ -19,31 +19,15 @@ const page = () => {
                             Pellentesque acu facilisis nunc mi proin. Dignissim mattis in lectus tincidunt tincidunt ultricies. Diam convallis morbi pellentesque adipiscing.
                         </p>
                         <div className='flex flex-row  justify-between'>
-                            <div className=''>
-
-                                <div className="mb-10">
-                                    <Image className='pb-2' src='/phone.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Call for inquiry</h2>
-                                    <p className="text-green-500">+257 388-6895</p>
-                                </div>
-                                <div className="mb-10">
-                                    <Image className='pb-2' src='/mail.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Send us email</h2>
-                                    <p className="text-green-500">kramulous@sbcglobal.net</p>
-                                </div>
-                            </div>
                             <div>
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Call for inquiry' description='+257 388-6895' ImgSrc='/phone.png' />
 
-                                <div className="mb-10">
-                                    <Image className='pb-2' src='/clock.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Opening hours</h2>
-                                    <p>Mon - Fri: 10AM - 10PM</p>
-                                </div>
-                                <div>
-                                    <Image className='pb-2' src='/map.png' alt="" width={28} height={28} />
-                                    <h2 className="text-xl font-semibold mb-2">Office</h2>
-                                    <p>19 North Road Piscataway, NY 08854</p>
-                                </div>
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Send us email' description='kramulous@sbcglobal.net' ImgSrc='/mail.png' />
+                            </div>
+
+                            <div>
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Opening hours' description='Mon - Fri: 10AM - 10PM' ImgSrc='/clock.png' />
+                                <Timing descritionClassName=' text-[16px] font-normal text-green-500' className='text-xl font-semibold mb-2' title='Office' description='19 North Road Piscataway, NY 08854' ImgSrc='/map.png' />
                             </div>
                         </div>
                     </div>
