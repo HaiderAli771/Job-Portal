@@ -6,7 +6,6 @@ interface Props {
     h1?: string;
     h1ClassName?: string;
 
-
 }
 
 const SectionHeader = ({ title, description, className, descritionClassName, h1, h1ClassName }: Props) => {
