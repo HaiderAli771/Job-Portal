@@ -23,7 +23,7 @@ const Header = () => {
                     <Link className={`${pathname === '/contactus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/contactus'>Contact Us</Link>
                 </div>
                 <div className='flex flex-row items-center gap-5 '>
-                    <Link className='text-white text-[20px]' href={"/Login"}>Login</Link>
+                    <Link className='text-white text-[20px]' href={"/login"}>Login</Link>
                     <Link className='text-white text-[20px] w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' href={"/Register"}>Register</Link>
                 </div >
             </div>
