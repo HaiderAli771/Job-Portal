@@ -20,5 +20,4 @@ const SectionHeader = ({ title, description, className, descritionClassName, h1,
         </>
     )
 }
-
 export default SectionHeader;
