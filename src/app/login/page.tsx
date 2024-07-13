@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
+import "../globals.css"
 
 const register = () => {
     return (
         <>
-            <div className='w-full bg flex items-center h-screen justify-center tracking-wider  bg-[#309689] backgroundimg'>
+            <div className='w-full bg flex items-center h-screen justify-center tracking-wider  bg-[#309689] background'>
                 <div className='w-[38%] h-[70%] text-sm glass content-center'>
                     <div className='w-full text-center my-3'>
                         <h2 className='text-2xl text-black font-medium' >Login</h2>

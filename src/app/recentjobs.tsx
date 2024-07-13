@@ -15,7 +15,7 @@ const recentjobs = () => {
         <>
             <div className='flex flex-row justify-between items-center bg-white pl-10 pr-10 mb-16 mt-10'>
                 <SectionHeader className=' font-bold text-[30px] pt-10' title='Recent jobs available' />
-                <Link className='underline text-[#309689]' href='/viewall'>View All</Link>
+                <Link className='underline text-[#309689]' href='/Jobs'>View All</Link>
             </div>
             <div className='p-10 m-10  rounded-2xl shadow-md'>
                 <div className='flex flex-row justify-between pl-2'>

@@ -25,7 +25,7 @@ const Hero = () => {
                         <option>Select Category</option>
                     </select>
                     <button
-                        className="bg-[#309689] h-[60px] text-white m-0 p-2 rounded-r-lg hover:bg-green-600 focus:outline-none focus:bg-green-700"
+                        className="bg-[#309689] h-[60px] text-white m-0 p-5 rounded-r-lg hover:bg-green-600 focus:outline-none focus:bg-green-700"
                     >
                         Search Job
                     </button>
