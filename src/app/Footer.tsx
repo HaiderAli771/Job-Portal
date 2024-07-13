@@ -11,7 +11,7 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col items-center w-full sm:w-1/4 mb-6 sm:mb-0">
                         <h6 className="text-lg font-bold pr-[16px] ">Company</h6>
-                        <div className="mt-4 flex flex-col">
+                        <div className="mt-4 flex flex-col gap-3">
                             <Link className="text-sm" href='' >About Us</Link>
                             <Link className="text-sm" href=''>Our Team</Link>
                             <Link className="text-sm" href=''>Partners</Link>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                     <div className="w-full flex flex-col sm:w-1/4 mb-6 sm:mb-0">
                         <h6 className="text-lg font-bold">Job Categories</h6>
-                        <div className="mt-4 flex flex-col">
+                        <div className="mt-4 flex flex-col gap-3">
                             <Link className="text-sm" href=''>Telecommunications</Link>
                             <Link className="text-sm" href=''>Hotels & Tourism</Link>
                             <Link className="text-sm" href=''>Construction</Link>

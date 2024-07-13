@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-
-const register = () => {
+const Login = () => {
     return (
         <>
             <div className='w-full bg flex items-center h-screen justify-center tracking-wider  bg-[#309689] backgroundimg'>
@@ -39,7 +38,7 @@ const register = () => {
                             <button className='bg-black w-full h-[35px] rounded-sm text-white'>Login</button>
                         </div>
                         <Link href='/' className='mx-5 my-5 py-2 flex items-center justify-center cursor-pointer'>
-                            <p>Dont have account / Register</p>
+                            <p>Dont have account <Link href={"/Register"}>/ Register</Link></p>
                         </Link>
                     </form>
 
@@ -50,4 +49,4 @@ const register = () => {
     )
 }
 
-export default register
+export default Login

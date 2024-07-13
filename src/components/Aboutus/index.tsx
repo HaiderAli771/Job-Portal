@@ -14,7 +14,7 @@ interface Props {
 const index = ({ title, description, className, descritionClassName, h1, h1ClassName, ImgSrc }: Props) => {
     return (
         <>
-            <div className="flex flex-col justify-center items-center shadow-sm rounded-md shadow-black w-[400px] h-[250px] pt-10">
+            <div className="flex flex-col justify-center items-center shadow-lg ring-2 ring-slate-300 rounded-md shadow-black w-[400px] h-[250px] pt-10">
                 <Image className='pb-5' src={ImgSrc} alt="" width={36} height={36} />
                 <div className={`flex flex-col ${className} `}>
                     <h3 className={`${className} `}>{title}</h3>

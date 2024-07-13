@@ -33,12 +33,12 @@ export default function Register() {
                 className='placeholder-black text-lg pl-2 bg-transparent outline-none' />
               <Image src={'/bxs-envelope.svg'} alt="" width={27} height={27} />
             </div>
-            <div className='mx-5 bg-black rounded-md text-center text-white w-[200px] font-semibold my-7 py-3'>
+            <div className='mx-5 bg-teal-950 rounded-md text-center text-white w-[200px] font-semibold my-7 py-3'>
               <button>Register</button>
             </div >
           </div>
           <div className='m-5 py-2 flex items-center justify-center cursor-pointer'>
-            <p className='text-sm'>Already have an account? <Link href="/Login" >/Login</Link></p>
+            <p className='text-sm'>Already have an account? <Link href={"/Login"} >/Login</Link></p>
           </div>
         </form>
       </div>

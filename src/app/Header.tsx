@@ -12,7 +12,7 @@ const Header = () => {
             <div className=' flex flex-row justify-around items-center pt-[20px] pl-[70px]'>
 
 
-                <div className='flex flex-row justify-center items-center '>
+                <div className='flex flex-row justify-center items-center gap-3'>
                     <Image className='w-[24.51px] h-[25.08px] ' src='/logo.png' alt="" width={200} height={200} />
                     <h1 className='text-white text-[20px]'>Job Portal</h1>
                 </div>
@@ -23,7 +23,7 @@ const Header = () => {
                     <Link className={`${pathname === '/contactus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/contactus'>Contact Us</Link>
                 </div>
                 <div className='flex flex-row items-center gap-5 '>
-                    <Link className='text-white text-[20px]' href={"/login"}>Login</Link>
+                    <Link className='text-white text-[20px]' href={"/Login"}>Login</Link>
                     <Link className='text-white text-[20px] w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' href={"/Register"}>Register</Link>
                 </div >
             </div>
