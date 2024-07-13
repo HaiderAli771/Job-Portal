@@ -14,11 +14,11 @@ const Header = () => {
 
                 <div className='flex flex-row justify-center items-center gap-3'>
                     <Image className='w-[24.51px] h-[25.08px] ' src='/logo.png' alt="" width={200} height={200} />
-                    <h1 className='text-white text-[20px]'>Job Portal</h1>
+                    <Link href="/" className='text-white text-[20px]'>Job Portal</Link>
                 </div>
                 <div className='flex flex-row gap-8'>
                     <Link className={`${pathname === '/' ? 'text-[#309689] ' : 'text-white'} text-[20px]'`} href='/'>Home</Link>
-                    <Link className={`${pathname === '/jobs' ? 'text-[#309689] ' : 'text-white'} text-[20px]'`} href='/Jobs'>Jobs</Link>
+                    <Link className={`${pathname === '/Jobs' ? 'text-[#309689] ' : 'text-white'} text-[20px]'`} href='/Jobs'>Jobs</Link>
                     <Link className={`${pathname === '/aboutus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/aboutus'>About Us</Link>
                     <Link className={`${pathname === '/contactus' ? 'text-[#309689]' : 'text-white'} text-[20px]'`} href='/contactus'>Contact Us</Link>
                 </div>
