@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <>
 
-            <div className=' flex flex-row justify-around items-center pt-[20px] pl-[70px]'>
+            <div className=' flex md:flex-row flex-col justify-around items-center md:pt-[20px] md:pl-[70px]'>
 
 
                 <div className='flex flex-row justify-center items-center gap-3'>

@@ -10,15 +10,15 @@ h1className?:string
 }
 const Textimonial =({iconSrc,heading,paragraph,className, h1className, jobs}: props) => {
     return (
-        <div className=" leading-6 bg-white  rounded-2xl h-[300px] md:w-[250px]">
+        <div className=" leading-6 bg-white ring-2 ring-gray-200 md:ring-0 shadow-xl md:shadow-sm rounded-2xl  h-auto pb-4 md:pb-2  w-auto m-4 md:m-0  ">
                <div className={className}>
                 <Image className=" ml-2 items-center" src={iconSrc} alt="Icon" width={70} height={70} />
               <h1 className={h1className}>{heading}</h1>
               </div>
-               <p className="pb-5 px-2  text-center">
+               <p className="pb-5  md:px-2  px-4  text-center">
               {paragraph}
                </p>
-               <Link className="ml-[58px]  rounded-2xl px-3 py-1 bg-teal-100 text-[#309689]" href="/Jobs">{jobs}</Link>
+               <Link className=" flex justify-center mx-5  items-center rounded-2xl px-3 py-1  bg-teal-100 sm:mb-9  text-[#309689]" href="/Jobs">{jobs}</Link>
             </div>
     )
 }
