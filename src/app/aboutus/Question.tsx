@@ -18,11 +18,11 @@ const Accordion = ({ title, answer }: Props) => {
     const [accordionOpen, setAccordionOpen] = useState(false);
 
     return (
-        <div className="pl-20  pr-20">
+        <div className=" md:pl-20  md:pr-20">
 
             <button
                 onClick={() => setAccordionOpen(!accordionOpen)}
-                className="flex justify-between w-full "
+                className="flex justify-between w-full outline-none "
             >
                 <span>{title}</span>
                 {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}

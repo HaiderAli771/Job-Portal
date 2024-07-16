@@ -9,9 +9,9 @@ import JobCard from "@/components/JobCard";
 export default function Jobs() {
   return (
     <>
-      <div className="bg-black pt-5">
+      <div className="bg-black">
         <Header />
-        <h1 className="text-white font-bold text-[60px] text-center pt-16 pb-16">Jobs</h1>
+        <h1 className="text-white font-bold text-[30px] md:text-[60px]  text-center pt-16 pb-16">Jobs</h1>
       </div>
       <div className="flex flex-col-2 h-[2000px] mt-4 gap-2 ">
         <div className="flex flex-col gap-5">

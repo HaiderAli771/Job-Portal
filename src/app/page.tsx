@@ -9,27 +9,29 @@ import Testimonial from "./testimonial";
 import News from "./news";
 import Footer from "./Footer";
 import Image from "next/image";
+import '../app/globals.css'
 export default function Home() {
   return (
     <>
 
 
 
-      <Image className=' absolute h-[700px] brightness-50 ' src='/herobackground.png' alt="" width={10000} height={700} />
+      <Image className=' absolute brightness-50 ' src='/herobackground.png' alt="" width={10000} height={844} />
       <div
-        className="relative h-screen bg-cover bg-center  opacity-100 flex flex-col gap-[100px]"
+
+        className="relative bg-cover bg-center  backgroundimg  opacity-100 flex flex-col md:gap-14"
 
       >
         <Header />
         <Hero />
       </div>
       <Recentjobs />
-      <Category1 />
+      {/* <Category1 />
       <Information />
       <BetterFuture />
       <Testimonial />
       <News />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

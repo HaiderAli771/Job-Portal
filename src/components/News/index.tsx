@@ -22,15 +22,15 @@ export const index = ({ title, description, className, descritionClassName, h1, 
 
             <div className="flex flex-row justify-center gap-20">
 
-                <div className="bg-white  rounded-xl overflow-hidden">
-                    <Image className='' src={ImgSrc} alt="" width={700} height={200} />
+                <div className="bg-white pl-2 pr-2  rounded-xl overflow-hidden">
+                    <Image className='' src={ImgSrc} alt="" width={600} height={200} />
                     <div className="p-4">
                         <div className={`flex flex-col ${className} `}>
                             <h1 className={`${h1ClassName}`}>{h1}</h1>
-                            <p className='text-black gap-0 '>30 March 2024</p>
-                            <p className='text-xl font-bold mt-2 w-[600px] gap-0'>{title}</p>
+                            <p className='text-black text-left gap-0 '>30 March 2024</p>
+                            <p className='md:text-xl text-left text-base font-medium md:font-bold mt-2 md:w-[600px] gap-0'>{title}</p>
                         </div>
-                        <Link href="#" className="text-[#309689] mt-4 block">Read more &rarr;</Link>
+                        <Link href="#" className="text-[#309689] text-left mt-4 block">Read more &rarr;</Link>
                     </div>
                 </div>
 

@@ -13,11 +13,11 @@ import BetterFuture from './betterfuture'
 const recentjobs = () => {
     return (
         <>
-            <div className='flex flex-row justify-between items-center bg-white pl-10 pr-10 mb-16 mt-10'>
-                <SectionHeader className=' font-bold text-[30px] pt-10' title='Recent jobs available' />
+            <div className='flex flex-row justify-between items-center bg-white md:pl-10  md:pr-10 mb-16 mt-10'>
+                <SectionHeader className=' font-bold text-[20px] md:text-[30px] md:pt-10' title='Recent jobs available' />
                 <Link className='underline text-[#309689]' href='/Jobs'>View All</Link>
             </div>
-            <div className='p-10 m-10  rounded-2xl shadow-md'>
+            {/* <div className='p-10 m-10  rounded-2xl shadow-md'>
                 <div className='flex flex-row justify-between pl-2'>
                     <div className=' w-24 rounded-lg bg-[#a0dad2] text-white'>
                         <p className='flex flex-row justify-center items-center'>10 min ago</p>
@@ -152,7 +152,7 @@ const recentjobs = () => {
                     </div>
                     <Link className='flex flex-row justify-center items-center rounded-lg text-white w-[100px] h-[40px]  bg-[#309689]' href='/jobdetail'>Job Detail</Link>
                 </div>
-            </div>
+        </div > */}
 
         </>
     )

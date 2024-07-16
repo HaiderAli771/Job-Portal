@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="bg-black text-white py-8">
             <div className="container mx-auto px-4 pt-[30px]">
-                <div className="flex flex-row ">
+                <div className="flex md:pl-0 md:pr-0 pl-2 pr-2 flex-col md:text-start text-center md:flex-row  ">
                     <div className="w-full sm:w-1/4 mb-6 sm:mb-0">
                         <SectionHeader descritionClassName='text-[15px] mt-4 font-normal' className='text-[20px] font-extrabold ' title='Job' description='Quis enim pellentesque viverra tellus eget malesuada facilisis. Congue nibh vivamus aliquet nunc mauris d...' />
                     </div>
@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-row justify-between items-center mt-8 text-center text-sm">
-                    <p>© Copyright Job Portal 2024. Design by Figma.guru</p>
+                    <p>© Copyright Job Portal 2024.</p>
                     <div className="flex justify-center gap-4 pr-2">
                         <Link href="#" className="hover:underline">Privacy Policy</Link>
                         <Link href="#" className="hover:underline">Terms & Conditions</Link>

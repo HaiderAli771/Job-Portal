@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <>
             <div className='w-full bg flex items-center h-screen justify-center tracking-wider  bg-[#309689] background'>
-                <div className='w-[38%] h-[70%] text-sm glass content-center'>
+                <div className='md:w-[38%] md:h-[70%] text-sm glass content-center'>
                     <div className='w-full text-center my-3'>
                         <h2 className='text-2xl text-black font-medium' >Login</h2>
                     </div>
@@ -37,9 +37,9 @@ const Login = () => {
                         <div className='mx-5 my-7 py-2'>
                             <button className='bg-black w-full h-[35px] rounded-sm text-white'>Login</button>
                         </div>
-                        <Link href='/' className='mx-5 my-5 py-2 flex items-center justify-center cursor-pointer'>
-                            <p>Dont have account <Link href={"/Register"}>/ Register</Link></p>
-                        </Link>
+                        <div className='m-5 py-2 flex items-center justify-center cursor-pointer'>
+                            <p className='text-sm'>Not Have Account <Link href={"/Register"} >/Register</Link></p>
+                        </div>
                     </form>
 
                 </div>

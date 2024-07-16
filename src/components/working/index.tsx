@@ -20,8 +20,8 @@ const index = ({ title, description, className, descritionClassName, h1, h1Class
                 <div className="flex flex-row gap-[39px]">
                     <div className="flex flex-row">
                         <h1 className={`${h1ClassName}`}>{h1}</h1>
-                        <Image className='pb-5' src={ImgSrc} alt="" width={60} height={60} />
-                        <h3 className="text-[20px] pl-2 font-bold">{title}</h3>
+                        <Image className='pb-5 ' src={ImgSrc} alt="" width={60} height={60} />
+                        <h3 className="md:text-[18px] text-[15px] pl-2 font-bold">{title}</h3>
                         <p className={`${descritionClassName}`}>{description}</p>
                     </div>
                 </div>
