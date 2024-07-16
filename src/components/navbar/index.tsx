@@ -4,7 +4,7 @@ interface Props {
 }   
 const Bar =({heading ,className}:Props)=>{
     return(
-             <div className={`flex ${className}`}>
+             <div className={`flex  ${className}`}>
           <div className="flex gap-2">
           <input type="checkbox" />
           <p>{heading}</p>

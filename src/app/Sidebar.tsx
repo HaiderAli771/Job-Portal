@@ -7,7 +7,7 @@ import Cards from "@/components/Cards/Cards";
 
 export default function Sidebar() {
     return ( 
-        <div className="flex flex-col  mt-7 gap-7">
+        <div className="flex flex-col items-center  mt-14 gap-7">
         <div className="bg-teal-50  rounded-2xl md:h-[980px] md:w-[300px]" >
            <h1 className="text-xl font-bold  pl-4 pt-4 " >Job overview</h1>          
             <div className="mt-5  pb-14 px-5">
@@ -56,19 +56,19 @@ export default function Sidebar() {
           </div>       
             <Maps/>             
         </div>
-         <div className="flex flex-col gap-5 bg-teal-50 pt-5 pl-5  w-[300px]  rounded-2xl ">
+         <div className="flex flex-col gap-5 bg-teal-50 pt-5 px-2 md:w-[300px]  w-auto rounded-2xl ">
             <h1 className="text-2xl font-bold tracking-tight ">Send Us Message</h1>             
-             <div className="  flex bg-white pl-3  md:w-[260px] gap-2 rounded-2xl py-2   ">
-                <Image className="ml-2" src="/person.svg" alt="person" width={20} height={20} />
-             <input className="md:w-[250px] rounded-2xl outline-none " type="text"  placeholder=" Enter your Name" />
-             </div>             
-             <div className=" flex bg-white gap-2 pl-3 w-[260px] rounded-2xl py-2">
+            <div className=" flex bg-white gap-2  pl-3 w-[260px] rounded-2xl py-2">
+              <Image src="/person.svg" alt="mail" width={20} height={20} />
+             <input className="rounded-2xl  md:w-[260px]" type="text" placeholder="Enter your name" />
+             </div>              
+             <div className=" flex bg-white gap-2  pl-3 w-[260px] rounded-2xl py-2">
               <Image src="/mail.svg" alt="mail" width={20} height={20} />
-             <input className="rounded-2xl  w-[260px]" type="text" placeholder="Email Address" />
+             <input className="rounded-2xl  md:w-[260px]" type="text" placeholder="Email Address" />
              </div>           
              <div className="  flex pl-3 bg-white gap-2 w-[260px] rounded-2xl py-2 ">
             <Image src="/phone.svg" alt="phone" width={20} height={20} />
-             <input className="rounded-2xl   w-[260px]" type="text" placeholder="phone number" />
+             <input className="rounded-2xl   md:w-[260px]" type="text" placeholder="phone number" />
              </div>            
              <div className="  flex bg-white gap-2  pl-3 w-[260px] rounded-2xl  ">
              <Image className="" src="/message.svg" alt="message" width={20} height={20} />

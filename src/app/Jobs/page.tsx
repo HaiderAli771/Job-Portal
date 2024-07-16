@@ -84,17 +84,21 @@ export default function Jobs() {
           </div>
 
           {/* last section */}
-          <div className="flex justify-end md:gap-[350px] mb-11 items-baseline mt-20 md:h-10 ">
-            <div className="flex gap-8">
-              <div className="rounded-md w-10 h-10 text-center p-2 text-white  bg-[#309689] ">1</div>
+          <div className="flex md:flex-row flex-col  gap-4 jsutify-center md:justify-evenly md:ml-0 md:gap-[350px] mb-11 items-center mt-20 md:h-10 ">
+            <div className="flex gap-8 md:ml-0 ">
+              <div className="rounded-md w-10 h-10  text-center p-2 text-white  bg-[#309689] ">1</div>
               <div className="rounded-md w-10 h-10 text-center p-2 text-[#6C757D] border-2 border-[#309689] ">2</div>
             </div>
-            <Link className="rounded-xl px-6 py-2 hover:bg-[#0d5e54] text-[#6C757D] border-2 border-[#6C757D] " href={"/Next"}>Next</Link>
+            <Link className="rounded-xl  md:px-6  px-9 py-2 shadow-xl hover:bg-[#0d5e54] text-[#6C757D] border-2 border-[#6C757D] " href={"/Next"}>Next</Link>
           </div>
         </div>
       </div>
+
       <Testimonial2 />
-      <Footer />
+
+    </div >
+
+      {/* <Footer /> */ }
     </>
-  );
+  )
 }
