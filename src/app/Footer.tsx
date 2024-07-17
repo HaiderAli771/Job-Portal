@@ -12,21 +12,21 @@ const Footer = () => {
                     <div className="flex flex-col items-center w-full sm:w-1/4 mb-6 sm:mb-0">
                         <h6 className="text-lg font-bold pr-[16px] ">Company</h6>
                         <div className="mt-4 flex flex-col gap-3">
-                            <Link className="text-sm" href='' >About Us</Link>
-                            <Link className="text-sm" href=''>Our Team</Link>
+                            <Link className="text-sm" href='/aboutus' >About Us</Link>
+                            <Link className="text-sm" href='/contactus'>Our Team</Link>
                             <Link className="text-sm" href=''>Partners</Link>
                             <Link className="text-sm" href=''>For Candidates</Link>
-                            <Link className="text-sm" href=''>For Employers</Link>
+                            <Link className="text-sm" href='/Register'>For Employers</Link>
                         </div>
                     </div>
                     <div className="w-full flex flex-col sm:w-1/4 mb-6 sm:mb-0">
                         <h6 className="text-lg font-bold">Job Categories</h6>
                         <div className="mt-4 flex flex-col gap-3">
-                            <Link className="text-sm" href=''>Telecommunications</Link>
-                            <Link className="text-sm" href=''>Hotels & Tourism</Link>
-                            <Link className="text-sm" href=''>Construction</Link>
-                            <Link className="text-sm" href=''>Education</Link>
-                            <Link className="text-sm " href=''>Financial Services</Link>
+                            <Link className="text-sm" href='/Job-Details'>Telecommunications</Link>
+                            <Link className="text-sm" href='/Job-Details'>Hotels & Tourism</Link>
+                            <Link className="text-sm" href='/Job-Details'>Construction</Link>
+                            <Link className="text-sm" href='/Job-Details'>Education</Link>
+                            <Link className="text-sm " href='/Job-Details'>Financial Services</Link>
                         </div>
                     </div>
                     <div className="w-full sm:w-1/4 mb-6 sm:mb-0">

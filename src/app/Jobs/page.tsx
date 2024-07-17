@@ -103,9 +103,9 @@ export default function Jobs() {
             <Link className="rounded-xl text-sm md:text-md  md:px-6  px-9 py-2 shadow-xl hover:bg-[#0d5e54] text-[#6C757D] border-2 border-[#6C757D] " href={"/Next"}>Next</Link>
           </div>
         </div>
-      </div>   
+      </div>
       <Testimonial2 />
-       <Footer /> 
+      <Footer />
     </>
   )
 }
