@@ -96,9 +96,8 @@ export default function Jobs() {
 
       <Testimonial2 />
 
-    </div >
 
-      {/* <Footer /> */ }
+      <Footer />
     </>
   )
 }

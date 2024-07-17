@@ -33,7 +33,7 @@ const page = () => {
                     <div className="md:w-[600px] bg-blue-50 p-2 md:p-8 rounded-lg">
                         <h2 className="text-2xl font-semibold mb-4">Contact Info</h2>
                         <form className="md:space-y-4">
-                            <div className="md:flex md:flex-row flex-col justify-between">
+                            <div className="md:flex md:flex-row md:items-baseline flex-col justify-between">
                                 <div>
                                     <h1 className='pl-1 pb-2'>First Name</h1>
                                     <input
