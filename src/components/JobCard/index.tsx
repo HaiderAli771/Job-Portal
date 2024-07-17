@@ -14,15 +14,15 @@ interface props {
 }
 const JobCard = ({ timeAgo, iconSrc, logoSrc, title, companyName, industry, jobType, salary, location }:props) => {
     return (
-        <div className="mt-[50px] rounded-xl pb-5 md:mx-0 mx-2 md:ring-0 ring-2 ring-slate-200  shadow-2xl md:pl-[22px] md:pt-6 p-6 md:pr-6">
+        <div className="mt-[50px] rounded-xl pb-5 md:mx-0 mx-2   shadow-2xl md:pl-[22px] md:pt-6 p-6 md:pr-6">
             <div className="flex justify-between">
-                <button className="text-[#2d8c7f] bg-teal-100 px-2 rounded-lg">{timeAgo}</button>
+                <button className="text-[#2d8c7f] bg-teal-100 px-2 text-sm text-normal rounded-lg">{timeAgo}</button>
                 <Image src={iconSrc} alt="icon" width={30} height={30} />
             </div>
             <div className="flex gap-6 items-start mt-9 ">
                 <Image className="items-start" src={logoSrc} alt="Logo" width={50} height={50} />
                 <div>
-                    <h2 className="text-xl gap-4 font-bold">{title}</h2>
+                    <h2 className="md:text-xl text-md gap-4 font-bold">{title}</h2>
                     <p className="text-sm  md:pt-0 pt-4 font-normal">{companyName}</p>
                 </div>
             </div>

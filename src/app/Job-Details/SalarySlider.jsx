@@ -23,11 +23,11 @@ const SalarySlider = () => {
 
     return (
         <div className="flex flex-col items-center p-4 bg-gray-100">
-            <h2 className="text-lg font-semibold mb-2">Salary</h2>
+            <h2 className="md:text-lg text-sm font-semibold mb-2">Salary</h2>
             <div className="w-full flex justify-between mb-4">
                 <input
                     type="number"
-                    className="w-1/4 p-2 border border-gray-300 rounded no-spinner"
+                    className="w-1/4 p-2 border border-gray-300 text-sm md:text-xl rounded no-spinner"
                     value={minSalary}
                     onChange={(e) => setMinSalary(Number(e.target.value))}
                     min="0"
@@ -36,7 +36,7 @@ const SalarySlider = () => {
                 />
                 <input
                     type="number"
-                    className="w-1/4 p-2 border border-gray-300 rounded no-spinner"
+                    className="w-1/4 p-2 border border-gray-300 rounded md:text-normal text-sm no-spinner"
                     value={maxSalary}
                     onChange={(e) => setMaxSalary(Number(e.target.value))}
                     min={minSalary}
@@ -83,7 +83,7 @@ const SalarySlider = () => {
             </div>
             <p className="text-sm mt-2">Salary: ${minSalary} - ${maxSalary}</p>
             <button
-                className="mt-4 bg-teal-600 text-white px-4 py-2 rounded"
+                className="mt-4 bg-teal-600 text-white md:text-normal text-sm px-4 py-2 rounded"
                 onClick={() => console.log(`Applied salary range: ${minSalary} - ${maxSalary}`)}
             >
                 Apply

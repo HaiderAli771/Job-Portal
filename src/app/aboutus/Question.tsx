@@ -24,7 +24,7 @@ const Accordion = ({ title, answer }: Props) => {
                 onClick={() => setAccordionOpen(!accordionOpen)}
                 className="flex justify-between w-full outline-none "
             >
-                <span>{title}</span>
+                <span >{title}</span>
                 {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
                 <svg
                     className="fill-black shrink-0 ml-8"
@@ -56,7 +56,7 @@ const Accordion = ({ title, answer }: Props) => {
                     : "grid-rows-[0fr] opacity-0 "
                     }`}
             >
-                <div className="overflow-hidden pt-2 text-lg text-white ">{answer}</div>
+                <div className="overflow-hidden pt-2 text-sm md:text-lg text-white ">{answer}</div>
             </div>
         </div>
     );

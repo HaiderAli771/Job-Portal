@@ -50,7 +50,7 @@ const Header = () => {
                         <Link className={`${pathname === '/Jobs' ? 'text-[#309689] ' : 'text-white'} text-[20px]`} href='/Jobs'>Jobs</Link>
                         <Link className={`${pathname === '/aboutus' ? 'text-[#309689]' : 'text-white'} text-[20px]`} href='/aboutus'>About Us</Link>
                         <Link className={`${pathname === '/contactus' ? 'text-[#309689]' : 'text-white'} text-[20px]`} href='/contactus'>Contact Us</Link>
-                        <Link className='text-white text-[20px] pb-2 ' href={"/login"}>Login</Link>
+                        <Link className='text-white text-[20px] pb-2 ' href={"/Login"}>Login</Link>
                         <Link className='text-white text-[20px]  w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' href={"/Register"}>Register</Link>
 
                     </nav>

@@ -15,10 +15,10 @@ const Textimonial =({iconSrc,heading,paragraph,className, h1className, jobs}: pr
                 <Image className=" ml-2 items-center" src={iconSrc} alt="Icon" width={70} height={70} />
               <h1 className={h1className}>{heading}</h1>
               </div>
-               <p className="pb-5  md:px-2  px-4  text-center">
+               <p className="pb-5  md:px-2  px-4 text-sm md:text-normal text-center">
               {paragraph}
                </p>
-               <Link className=" flex flex-row justify-center mx-5  items-center  rounded-2xl px-3 py-1  bg-teal-100 sm:mb-9 md:w-auto md:mx-28   text-[#309689]" href="/Jobs">{jobs}</Link>
+               <Link className=" flex flex-row justify-center mx-5  items-center  rounded-2xl px-3 py-1  bg-teal-100 sm:mb-9 md:w-auto md:mx-28  md:text-normal text-sm text-[#309689]" href="/Jobs">{jobs}</Link>
             </div>
     )
 }
