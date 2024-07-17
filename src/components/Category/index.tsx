@@ -18,10 +18,10 @@ const Category = ({ title, description, className, descritionClassName, ImageSrc
     return (
         <>
             <div >
-                <div className='flex flex-col justify-center items-center gap-6 w-[260px] h-[205px] bg-white shadow-xl rounded-xl'>
+                <div className='flex flex-col justify-center items-center gap-6 w-[240px] h-[205px] bg-white shadow-xl rounded-xl'>
                     <Image className="w-[40px] h-[40px]" src={ImageSrc} alt="" width={200} height={200} />
-                    <h3 className='text-[20px] gap-3 text-center items-center justify-center '>{title}</h3>
-                    <p className='text-[16px] font-medium  w-24 rounded-lg bg-[#a0dad2] text-white flex flex-row justify-center items-center'>{description}</p>
+                    <h3 className='md:text-[20px] text-[17px] gap-3 text-center items-center justify-center '>{title}</h3>
+                    <p className='md:text-[16px] text-[13px] font-medium  w-24 rounded-lg bg-[#a0dad2] text-white flex flex-row justify-center items-center'>{description}</p>
                 </div>
             </div >
         </>

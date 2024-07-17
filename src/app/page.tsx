@@ -26,12 +26,12 @@ export default function Home() {
         <Hero />
       </div>
       <Recentjobs />
-      {/* <Category1 />
+      <Category1 />
       <Information />
       <BetterFuture />
       <Testimonial />
       <News />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

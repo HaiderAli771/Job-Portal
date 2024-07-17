@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import SectionHeader from '@/components/sectionHeader'
+import Jobs from './Jobs/page'
 const Hero = () => {
     return (
         <>
