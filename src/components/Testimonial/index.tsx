@@ -18,7 +18,7 @@ const Textimonial =({iconSrc,heading,paragraph,className, h1className, jobs}: pr
                <p className="pb-5  md:px-2  px-4  text-center">
               {paragraph}
                </p>
-               <Link className=" flex justify-center mx-5  items-center rounded-2xl px-3 py-1  bg-teal-100 sm:mb-9  text-[#309689]" href="/Jobs">{jobs}</Link>
+               <Link className=" flex flex-row justify-center mx-5  items-center  rounded-2xl px-3 py-1  bg-teal-100 sm:mb-9 md:w-auto md:mx-28   text-[#309689]" href="/Jobs">{jobs}</Link>
             </div>
     )
 }

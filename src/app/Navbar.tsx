@@ -117,7 +117,7 @@ export default function Navbar() {
       </div>
       <SalarySlider />
       <p className="font-semibold md:ml-7 text-center md:text-start mt-3 text-2xl ">Tags</p>
-      <div className="grid md:grid-cols-2 gap-x-3 gap-y-3  ml-6 mt-3 mr-10 " >
+      <div className="grid md:grid-cols-2 gap-x-3 gap-y-3  ml-6 mt-3 mr-6 " >
         <Catageory
         href={"/Engineering"}
         children="Engineering"
