@@ -30,10 +30,10 @@ export const index = ({ title, description, className, descritionClassName, h1, 
                     <div className="p-4">
                         <div className={`flex flex-col ${className} `}>
                             <h1 className={`${h1ClassName}`}>{h1}</h1>
-                            <p className='text-black text-left gap-0 '>30 March 2024</p>
-                            <p className='md:text-xl text-left text-base font-medium md:font-bold mt-2  gap-0'>How to avoid the top six most common job interview mistakes</p>
+                            <p className='text-black text-left gap-0 text-sm md:text-base'>30 March 2024</p>
+                            <p className='md:text-xl text-left text-sm font-medium md:font-bold mt-2 gap-0'>How to avoid the top six most common job interview mistakes</p>
                         </div>
-                        <Link href="#" className="text-[#309689] text-left mt-4 block">Read more &rarr;</Link>
+                        <Link href="#" className="text-[#309689] text-left text-sm md:text-base mt-4 block">Read more &rarr;</Link>
                     </div>
                 </div>
 
