@@ -13,10 +13,6 @@ import '../app/globals.css'
 export default function Home() {
   return (
     <>
-
-
-
-      <Image className=' absolute brightness-50 ' src='/herobackground.png' alt="" width={10000} height={844} />
       <div
 
         className="relative bg-cover bg-center  backgroundimg  opacity-100 flex flex-col md:gap-14"

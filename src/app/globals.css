@@ -44,7 +44,7 @@ background-size:cover;
 .backgroundimg{
   background-image: url("/herobackground.png");
   background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
+background-repeat:no-repeat;
+background-size:cover;
   /* filter: blur(5px); */
 }

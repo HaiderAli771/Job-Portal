@@ -17,7 +17,7 @@ export default function Register() {
                 type="text"
                 placeholder="Enter your name"
                 className='placeholder-black md:text-lg text-sm md:pl-2 bg-transparent outline-none' />
-              <Image  className="md:w-[27px] md:h-[27px]" src={'/bxs-user.svg'} alt="" width={20} height={20} />
+              <Image className="md:w-[27px] md:h-[27px]" src={'/bxs-user.svg'} alt="" width={20} height={20} />
             </div>
             <div className='flex md:w-[350px] justify-between  border-b-black border-b-2 mx-5 my-7 py-1 flex-row '>
               <input

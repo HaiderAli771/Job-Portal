@@ -22,7 +22,7 @@ const index = ({ title, description, className, descritionClassName, h1, h1Class
                 <div className='flex flex-col ml-[21px]  mr-[21px]'>
                     <div className='flex flex-col md:flex md:flex-row xl:justify-center lg:justify-center gap-3'>
                         <div className='flex flex-col lg:w-[314px] md:rounded-3xl rounded-3xl bg-white '>
-                            <div className='flex flex-col gap-[10px] pt-10  md:rounded-3xl rounded-3xl border-black shadow-2xl p-5'>
+                            <div className='flex flex-col gap-[10px] pt-[1.5rem]  md:rounded-3xl rounded-3xl border-black shadow-2xl p-5'>
                                 <Image className='w-[154px]' src='/Stars.png' alt="" width={200} height={200} />
                                 <div className='flex flex-row gap-2'>
                                     <div className={`flex flex-col gap-4 ${className} `}>

@@ -29,7 +29,7 @@ const Header = () => {
 
                         </div>
                         <div className=' md:flex md:flex-row items-center gap-5 hidden  '>
-                            <Link className='text-white text-[20px]' href={"/login"}>Login</Link>
+                            <Link className='text-white text-[20px]' href={"/Login"}>Login</Link>
                             <Link className='text-white text-[20px] w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' href={"/Register"}>Register</Link>
                         </div>
 
