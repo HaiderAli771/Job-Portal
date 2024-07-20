@@ -29,8 +29,8 @@ const Header = () => {
 
                         </div>
                         <div className=' md:flex md:flex-row items-center gap-5 hidden  '>
-                            <Link className='text-white text-[20px]' href={"/Login"}>Login</Link>
-                            <Link className='text-white text-[20px] w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' href={"/Register"}>Register</Link>
+                            <Link className={`${pathname === '/Login' ? 'text-[#309689]' : 'text-white'} text-[20px] `} href={"/Login"}>Login</Link>
+                            <Link className={`${pathname === '/Register' ? 'text-[#a0fff2]  text-[20px]  w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' : 'text-white'} text-[20px]`} href={"/Register"}>Register</Link>
                         </div>
 
                         <button
@@ -50,8 +50,8 @@ const Header = () => {
                         <Link className={`${pathname === '/Jobs' ? 'text-[#309689] ' : 'text-white'} text-[20px]`} href='/Jobs'>Jobs</Link>
                         <Link className={`${pathname === '/aboutus' ? 'text-[#309689]' : 'text-white'} text-[20px]`} href='/aboutus'>About Us</Link>
                         <Link className={`${pathname === '/contactus' ? 'text-[#309689]' : 'text-white'} text-[20px]`} href='/contactus'>Contact Us</Link>
-                        <Link className='text-white text-[20px] pb-2 ' href={"/Login"}>Login</Link>
-                        <Link className='text-white text-[20px]  w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' href={"/Register"}>Register</Link>
+                        <Link className={`${pathname === '/Login' ? 'text-[#309689]  text-[20px]   bg-[#309689] ' : 'text-white'} text-[20px]`} href={"/Login"}>Login</Link>
+                        <Link className={`${pathname === '/Register' ? 'text-[#309689]  text-[20px]  w-[110px] h-[50px] bg-[#309689] flex flex-row justify-center items-center rounded-xl' : 'text-white'} text-[20px]`} href={"/Register"}>Register</Link>
 
                     </nav>
                 )}

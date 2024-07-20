@@ -1,9 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
+import Header from '../Header';
 const Login = () => {
     return (
         <>
+            <div className="bg-black">
+                <Header />
+                <h1 className="text-white font-bold text-xl md:text-[60px]  text-center pt-16 pb-16">Login</h1>
+            </div>
             <div className='w-full bg flex items-center h-screen justify-center tracking-wider  bg-[#309689] background'>
                 <div className='md:w-[38%] md:h-[70%] text-sm glass content-center'>
                     <div className='w-full text-center my-3'>
