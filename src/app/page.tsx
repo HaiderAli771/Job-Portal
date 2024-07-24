@@ -1,23 +1,18 @@
-import Header from "./Header";
-import Hero from './Hero'
-import { useRouter } from 'next/router';
-import Recentjobs from "./recentjobs";
-import Category1 from "./category"
-import Information from "./Information";
-import BetterFuture from "./betterfuture";
+import React from "react";
+import Header from "./header";
+import Hero from "./hero";
+import Recentjobs from "./recentJobs";
+import Category1 from "./category";
+import Information from "./information";
+import BetterFuture from "./betterFuture";
 import Testimonial from "./testimonial";
 import News from "./news";
-import Footer from "./Footer";
-import Image from "next/image";
-import '../app/globals.css'
+import Footer from "./footer";
+import "../app/globals.css";
 export default function Home() {
   return (
     <>
-      <div
-
-        className="relative bg-cover bg-center  backgroundimg  opacity-100 flex flex-col md:gap-14"
-
-      >
+      <div className="relative bg-cover bg-center  backgroundimg  opacity-100 flex flex-col md:gap-14">
         <Header />
         <Hero />
       </div>
